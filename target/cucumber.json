@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8184196583,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-14T13:11:47.335Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4333906375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 118955125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6880002916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443855208,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111424750,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4810032458,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1475292,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
